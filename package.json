@@ -11,7 +11,14 @@
     "test": "jest",
     "lint": "eslint src/"
   },
-  "keywords": ["semver", "conventional-commits", "version", "bump", "changelog", "release"],
+  "keywords": [
+    "semver",
+    "conventional-commits",
+    "version",
+    "bump",
+    "changelog",
+    "release"
+  ],
   "author": "sulthonzh",
   "license": "MIT",
   "dependencies": {
@@ -27,6 +34,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sulthonzh/bumpkit"
+    "url": "git+https://github.com/sulthonzh/bumpkit.git"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/sulthonzh/bumpkit",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/bumpkit/issues"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

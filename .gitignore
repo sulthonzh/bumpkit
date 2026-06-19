@@ -3,3 +3,11 @@ dist/
 *.tgz
 coverage/
 .DS_Store
+build/
+.env
+.env.*
+*.log
+__pycache__/
+.venv/
+*.egg-info/
+.mypy_cache/
