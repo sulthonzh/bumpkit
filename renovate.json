@@ -2,5 +2,14 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "typescript"
+      ],
+      "allowedVersions": "^6.0.0",
+      "description": "cap TS at 6: ts-jest requires JS compiler API absent in TS7 native"
+    }
   ]
 }
